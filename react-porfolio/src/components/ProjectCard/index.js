@@ -1,11 +1,11 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react';
-
+import './pc.css';
 
 export default function ProjectCard (props) {
   console.log(props);
   return (
-    <main>
+    <main className ="card-div-style">
 <div class="card">
   <img src={props.image} className="card-img-top" alt={props.title} />
   <div class="card-body">
