@@ -1,32 +1,17 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react';
-// import projects from '../Projects/index';
 
-function ProjectCard () {
+
+export default function ProjectCard (props) {
   return (
     <main>
 <div class="card">
-  <img src="..." class="card-img-top" alt="..."></img>
+  <img src={props.image} class="card-img-top" alt={props.title} />
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="/" class="btn btn-primary">Go somewhere</a>
-    <a href="/" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card">
-  <img src="..." class="card-img-top" alt="..."></img>
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card">
-  <img src="..." class="card-img-top" alt="..."></img>
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  <p class="card-text">{props.title}</p>
+    <p class="card-text">{props.challenge}</p>
+    <a href={props.repoLink} class="btn btn-dark">GitHub</a>
+    <a href={props.siteLink} class="btn btn-primary">Live Site</a>
   </div>
 </div>
 </main>
@@ -34,4 +19,3 @@ function ProjectCard () {
   )
 };
 
-export default ProjectCard;
