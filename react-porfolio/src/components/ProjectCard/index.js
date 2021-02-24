@@ -3,10 +3,11 @@ import React from 'react';
 
 
 export default function ProjectCard (props) {
+  console.log(props);
   return (
     <main>
 <div class="card">
-  <img src={props.image} class="card-img-top" alt={props.title} />
+  <img src={props.image} className="card-img-top" alt={props.title} />
   <div class="card-body">
   <p class="card-text">{props.title}</p>
     <p class="card-text">{props.challenge}</p>

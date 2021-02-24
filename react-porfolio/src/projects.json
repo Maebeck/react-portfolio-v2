@@ -2,7 +2,7 @@
 {
     "id": 1,
     "title": "Project 1",
-    "image": "",
+    "image": "../../images/proj-one.jpg",
     "challenge": "First time working in a team setting. Using a 3rd party API to achieve our goal. Finishing on time as well.",
     "role": "Back-end developer",
     "repoLink": "https://github.com/Maebeck/Project-1",
@@ -11,7 +11,7 @@
 {
     "id": 2,
     "title": "Reactive Portfolio",
-    "image": "/static/media/if_github_square_black_107109.png",
+    "image": "../../images/first-portfolio.JPG",
     "challenge": "This project was the first HTML and CSS project I did alone, so I was still learning. Also had no clue about good file structure.",
     "role": "Solo Front-end Developer",
     "repoLink": "https://github.com/Maebeck/reactive-portfolio",
@@ -20,7 +20,7 @@
 {
     "id": 3,
     "title": "Fitness Tracker",
-    "image": "images/fitness-tracker.jpg",
+    "image": "../../images/fitness-tracker.JPG",
     "challenge": "Learning the basics of react components and appending data to them",
     "role": "Solo Full Stack Dev",
     "repoLink": "https://github.com/Maebeck/fitness-tracker",
@@ -29,7 +29,7 @@
 {
     "id": 4,
     "title": "PWA Budget Tracker",
-    "image": "/images/pwa-budget.jpg",
+    "image": "../../images/pwa-budget.JPG",
     "challenge": "Learning service workers and how to add offline functionality",
     "role": "Solo Full Stack Dev",
     "repoLink": "https://github.com/Maebeck/progressive-budget",
