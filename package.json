@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Maebeck/react-portfolio-v2/issues"
   },
-  "homepage": "https://github.com/Maebeck/react-portfolio-v2#readme"
+  "homepage": "https://github.com/Maebeck/react-portfolio-v2#readme",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "if-env": "^1.0.4"
+  }
 }
