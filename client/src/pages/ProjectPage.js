@@ -8,7 +8,6 @@ function ProjectPage (){
         return(
     projects.map(projects => {
     return (
-        console.log(projects),
         <ProjectCard 
         id ={projects.id}
         title={projects.title}

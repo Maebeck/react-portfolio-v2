@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: gold;
+  background-color:black !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.about {
+  background-color: black;
+  background-size: cover;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+.portfolio {
+  background-color: black;
+  background-size: cover;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+.contact {
+  background-color: black;
+  background-size: cover;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
 }

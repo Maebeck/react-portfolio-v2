@@ -4,7 +4,7 @@ import './App.css';
 import AboutMe from '../src/pages/AboutMe';
 import ContactMe from '../src/pages/ContactMe';
 import ProjectPage from '../src/pages/ProjectPage';
-import Footer from '../src/components/Footer';
+// import Footer from '../src/components/Footer';
 import Navbar from '../src/components/Navbar';
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route  path ='/Portfolio' component = {ProjectPage}/>
         <Route  path ='/Contact' component = {ContactMe}/>
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   </Router>
   </>

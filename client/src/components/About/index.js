@@ -15,6 +15,9 @@ function AboutMe () {
                 </div>
                 <p className='me-desc'>
                     Hello! My name is Corey Smith. I'm an aspiring Full Stack Web Developer.
+                    <h2>Some things about me:</h2>
+                    <p>Gamer - Builder - All Things PC</p>
+                    <p>Skiier - Weight Lifter - Average Chef</p>
                 </p>
                 <div>
                 </div>

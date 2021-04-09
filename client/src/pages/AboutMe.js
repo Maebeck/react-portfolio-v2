@@ -3,7 +3,9 @@ import About from '../components/About';
 
 function AboutMe () {
     return (
+        <div class='about'>
         <About />
+        </div>
     )
 };
 

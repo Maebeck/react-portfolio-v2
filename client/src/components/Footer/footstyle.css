@@ -10,6 +10,11 @@
 .socialDiv {
     margin-top: 5px;
     justify-content: center;
+    
+}
+
+.socialDiv .a {
+    color: gold;
 }
 
 .footer-div {

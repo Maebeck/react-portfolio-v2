@@ -3,7 +3,9 @@ import Contact from '../components/Contact';
 
 function ContactMe() {
     return (
-<Contact />
+        <div class='contact'>
+    <Contact />
+        </div>
     );
 }
 
