@@ -7,21 +7,6 @@
   pointer-events: none;
 }
 
-footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-
-  footer p {
-    margin: 0;
-    text-align: center;
-    }
-
     .navlinks {
       font-weight: 900;
       letter-spacing: 0.0375rem;
