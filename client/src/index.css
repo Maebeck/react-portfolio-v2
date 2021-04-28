@@ -17,7 +17,7 @@ code {
 .about {
   background-color: black;
   background-size: cover;
-  position: fixed;
+  
   min-width: 100%;
   min-height: 100%;
 }

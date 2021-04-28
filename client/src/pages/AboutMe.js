@@ -1,10 +1,14 @@
 import React from 'react';
-import About from '../components/About';
+import AboutDesc from '../components/AboutDesc';
+import AboutImg from '../components/AboutImg';
+import AboutTitle from '../components/AboutTitle';
 
 function AboutMe () {
     return (
         <div class='about'>
-        <About />
+        <AboutTitle />
+        <AboutImg />
+        <AboutDesc />
         </div>
     )
 };
